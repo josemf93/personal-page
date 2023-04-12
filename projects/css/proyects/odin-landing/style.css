@@ -65,7 +65,7 @@ img {
   .hero-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -92,6 +92,8 @@ img {
       margin-bottom: 20px;
   }
   .hero-img{
+    display: flex;
+    justify-content: center;
     padding: 1rem;
   }
 

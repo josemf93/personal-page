@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" async></script>
+    <title>Plants Store</title>
+</head>
+<body>
+    <header>
+        <h1>Plant shop</h1>
+    </header>
+    <section class="container">
+        <!-- container items-->
+        <div class="container-items">
+            <div class="item">
+                <span class="item-title">Cille</span>
+                <img src="imgs/img1.jpeg" alt="" class="img-item">
+                <span class="item-price">25€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+            <div class="item">
+                <span class="item-title">Yhagos</span>
+                <img src="imgs/img2.jpeg" alt="" class="img-item">
+                <span class="item-price">50€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+            <div class="item">
+                <span class="item-title">Encedale</span>
+                <img src="imgs/img3.jpeg" alt="" class="img-item">
+                <span class="item-price">75€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+            <div class="item">
+                <span class="item-title">Weafsas</span>
+                <img src="imgs/img4.jpeg" alt="" class="img-item">
+                <span class="item-price">100€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+            <div class="item">
+                <span class="item-title">Yakutsk</span>
+                <img src="imgs/img5.jpg" alt="" class="img-item">
+                <span class="item-price">45€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+            <div class="item">
+                <span class="item-title">Igarka</span>
+                <img src="imgs/img6.jpg" alt="" class="img-item">
+                <span class="item-price">190€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+            <div class="item">
+                <span class="item-title">Ludington</span>
+                <img src="imgs/img7.jpeg" alt="" class="img-item">
+                <span class="item-price">215€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+            <div class="item">
+                <span class="item-title">Mieres</span>
+                <img src="imgs/img8.jpeg" alt="" class="img-item">
+                <span class="item-price">324€</span>
+                <button class="buttom-item" id="buttom-item">Add to cart</button>
+            </div>
+        </div>
+        <!-- carts -->
+        <div class="cart" id="cart">
+            <div class="header-cart">
+                <h2>Your Cart</h2>
+            </div>
+
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <div class="row">
+                    <strong>Your Total</strong>
+                    <span class="cart-total-price">
+                        500€
+                    </span>
+                </div>
+                <button class="btn-pay" onclick="scrolltoCart()">Pay <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
